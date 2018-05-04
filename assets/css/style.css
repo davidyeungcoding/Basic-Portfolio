@@ -1,12 +1,17 @@
 .nav {
-    width: 960px;
-    margin: auto;
+    width: 100%;
+    background: white;
+    overflow: auto;
+    padding: 20px;
 }
 
 .main-content {
     width: 900px;
     margin: 50px auto;
+    padding: 0 30px 40px;
     background: white;
+    overflow: auto;
+    border: 1px solid #666666;
 }
 
 h1 {
@@ -15,15 +20,18 @@ h1 {
     display: inline;
     padding: 20px;
     box-sizing: border-box;
+    position: relative;
+    left: 16%;
 }
 
 .links {
     float: right;
-    padding: 20px;
+    position: relative;
+    right: 18%;
+    display: inline;
 }
 
 ul.nav-list {
-    clear: both;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -38,11 +46,6 @@ ul.nav-list {
 
 li.nav-links:last-child {
     border-right: none;
-}
-
-.texture {
-    background-image: url("../images/concrete_seamless.png");
-    background-size: cover;
 }
 
 #portrait {
@@ -73,4 +76,21 @@ footer {
 
 .port-img {
     margin: 15px;
+}
+
+.fillin-box {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.button {
+    color: white;
+    background-color: #4aaaa5;
+    border: none;
+    padding: 10px 20px;
+}
+
+body {
+    background-image: url("../images/concrete_seamless.png")
 }
